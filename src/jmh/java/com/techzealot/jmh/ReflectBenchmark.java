@@ -11,7 +11,6 @@ import org.openjdk.jmh.annotations.State;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 @State(Scope.Benchmark)//声明类属性的作用域
