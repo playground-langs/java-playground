@@ -24,7 +24,7 @@ public class MethodHandleTest {
         IntStream.range(0, N).forEach((i) -> {
             try {
                 //invokeExact必须处理返回值,否则报错返回值类型为void,不匹配
-                methodHandle.invoke(string, count);
+                String str= (String) methodHandle.invokeExact(string, count);
             } catch (Throwable e) {
                 throw new RuntimeException(e);
             }
