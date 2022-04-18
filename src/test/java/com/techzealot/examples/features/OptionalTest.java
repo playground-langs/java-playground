@@ -2,7 +2,6 @@ package com.techzealot.examples.features;
 
 import org.junit.jupiter.api.Test;
 
-import javax.swing.plaf.synth.SynthStyleFactory;
 import java.util.Optional;
 
 public class OptionalTest {

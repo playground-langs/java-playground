@@ -29,6 +29,8 @@ java {
     modularity.inferModulePath = true
 }
 
+def moduleName='techzealot.java.playground'
+
 jmh {
     warmupIterations = 2
     iterations = 5
@@ -49,4 +51,6 @@ tasks.withType(Test) {
 
 tasks.withType(JavaExec) {
     jvmArgs += '--enable-preview'
+    //支持外部函数调用
+    jvmArgs += "--enable-native-access=$moduleName"
 }
