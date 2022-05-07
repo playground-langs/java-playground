@@ -5,7 +5,7 @@
 5. [x] enhanced switch
 6. [x] long text
 7. [x] Optional enhance
-8. [ ] StackWalker
-9. [ ] MethodHandle(JMH test)
+8. [x] StackWalker
+9. [x] MethodHandle(JMH test)
 10. [ ] VarHandle
 11. [ ] Flow API
